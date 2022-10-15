@@ -1,11 +1,11 @@
 #Requires -Module ModuleBuilder
-[string]$moduleName = "NN.NorEnergy"
+[string]$moduleName = "NN.Smarthome"
 [version]$version = "0.0.1"
 [string]$author = "NorskNoobing"
 [string]$ProjectUri = "https://github.com/$author/$moduleName"
 [string]$releaseNotes = "Initial commit"
-[string]$description = "This is an API integration to get energy prices."
-[array]$tags = @("Energy","API","Power","Price","Norway","Norwegian")
+[string]$description = "This is a module with functions to help with home automation."
+[array]$tags = @("Energy","API","Power","Price","Norway","Norwegian","Smarthome","Home","Automation")
 [version]$PSversion = "7.2"
 
 $manifestSplat = @{
